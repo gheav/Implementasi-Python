@@ -1,0 +1,26 @@
+Deskripsi Data jaringan email-Uni Eropa
+Tugas UAS Jejaring Sosial
+
+Disusun Oleh :
+
+Gilang Heavy Pradana | 16.01.53.0036
+Valencia Bernessa    | 16.01.53.0022
+Fuad Hanif Muktafa   | 16.01.53.0018
+
+
+Universitas Stikubank Semarang
+
+
+=============================================
+
+Jaringan ini dihasilkan menggunakan data email dari sebuah lembaga penelitian besar di Eropa. 
+data ini merupakan informasi anonim tentang semua email masuk dan keluar antara anggota lembaga penelitian. 
+Ada keunggulan (a, b) di jaringan ini, jika orang yang Anda kirim email 1 orang setidaknya memiliki satu email. 
+Email hanya mewakili komunikasi antara anggota institusi (inti), dan dataset tidak mengandung pesan masuk atau keluar pesan ke seluruh dunia.
+
+Dataset juga berisi keanggotaan komunitas "dasar-kebenaran" dari setiap node. Setiap individu memiliki salah satu dari 42 departemen di lembaga penelitian.
+
+Jaringan ini mewakili "inti" dari jaringan email-EuAll , yang juga berisi tautan antara anggota lembaga dan orang-orang di luar lembaga (meskipun ID simpul tidak sama).
+
+Untuk dapat melihat hubungan antara sebua jaringan email maka pertama kita akan menghitung nilai clustering coefisient , kemudian kita akan menggunakan algoritma pagerank
+untuk melihat seberapa besar 1 email terhadap email lain.
